@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+            integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="./style.css">
+        <title>website of restaurant</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Feane</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#myNavbar"
+                    aria-controls="myNavbar"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end"
+                    id="myNavbar">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#booking">BOOK A TABLE</a>
+                        </li>
+                        <li class="icon">
+                            <i class="fa-solid fa-user"></i>
+                        </li>
+                        <li class="icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </li>
+                        <li class="icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                        <li class="nav-item"><button class="button" type="button">Order Online</button></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide"
+            data-bs-ride="carousel" data-bs-interval="3500">
+            <div class="carousel-indicators">
+                <button type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 class="display-4 fw-bold">Fast Food Restaurant</h2>
+                    <p class="lead">Hungry? We serve your favorite burgers, pizzas and fries hot and fresh, made to order from quality ingredients and ready in just a few minutes.</p>
+                    <a href="#"
+                        class="btn btn-warning rounded-pill px-4 py-2 text-white fw-bold">Order
+                        Now</a>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="display-4 fw-bold">Delicious Meals</h2>
+                    <p class="lead">From juicy burgers to cheesy baked pasta, every dish is cooked fresh in our kitchen with real ingredients and plenty of flavor. Pick a favorite or try something new today.</p>
+                    <a href="#"
+                        class="btn btn-warning rounded-pill px-4 py-2 text-white fw-bold">Order
+                        Now</a>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="display-4 fw-bold">Enjoy Your Meal</h2>
+                    <p class="lead">Bring your family and friends, grab a table and enjoy great food in a warm, friendly place. Order online for fast delivery, or book a table and we will take care of the rest.</p>
+                    <a href="#"
+                        class="btn btn-warning rounded-pill px-4 py-2 text-white fw-bold">Order
+                        Now</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="mini-card">
+            <div class="card1">
+                <div class="card-img">
+                    <img src="./Images/show 1.jpg" alt="Tasty Thursdays offer" loading="lazy">
+                </div>
+                <div class="content">
+                    <div class="content-text">
+                        <h4>Tasty Thursdays</h4>
+                        <p>20% <span>off</span></p>
+                        <a href="#"
+                            class="btn btn-warning rounded-pill px-4 py-2 text-white fw-bold">Order
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="card-img">
+                    <img src="./Images/show 2.jpg" alt="Pizza days offer" loading="lazy">
+                </div>
+                <div class="content2">
+                    <div class="content-text">
+                        <h4>Pizza days</h4>
+                        <p> 15% <span>off</span></p>
+                        <a href="#"
+                            class="btn btn-warning rounded-pill px-4 py-2 text-white fw-bold">Order
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <h3 id="menu">Our Menu</h3>
+        <div class="our-menu">
+            <div class="card">
+                <img src="./Images/Menu 1.jpg" class="card-img-top" alt="Delicious Pizza" loading="lazy">
+                <div class="card-body">
+                    <h4 class="card-title">Delicious Pizza</h4>
+                    <p class="card-text">Shrimp, crab sticks and squid on melted cheese with a golden crispy crust.</p>
+                    <div class="card-container">
+                        <p>$10</p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Images/Menu 2.jpg" class="card-img-top" alt="Delicious Burger">
+                <div class="card-body">
+                    <h4 class="card-title">Delicious Burger</h4>
+                    <p class="card-text">Juicy beef patty with melted cheddar, fresh tomato, onion and crisp lettuce in a sesame bun.</p>
+                    <div class="card-container">
+                        <p>$10</p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Images/Menu 3.jpg" class="card-img-top" alt="Delicious Pizza">
+                <div class="card-body">
+                    <h4 class="card-title">Delicious Pizza</h4>
+                    <p class="card-text">Melted cheese, black olives and fresh basil on a thick, crunchy crust.</p>
+                    <div class="card-container">
+                        <p>$10</p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Images/Menu 4.jpg" class="card-img-top" alt="Delicious Pasta" loading="lazy">
+                <div class="card-body">
+                    <h4 class="card-title">Delicious Pasta</h4>
+                    <p class="card-text">Tender pasta tossed with olives, tomatoes and sweet peppers. Light and fresh.</p>
+                    <div class="card-container">
+                        <p>$10</p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Images/Menu 5.jpg" class="card-img-top" alt="French Fries" loading="lazy">
+                <div class="card-body">
+                    <h4 class="card-title">French Fries</h4>
+                    <p class="card-text">Golden and crispy outside, soft inside, and lightly salted.</p>
+                    <div class="card-container">
+                        <p>$10</p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Images/Menu 6.jpg" class="card-img-top" alt="Delicious Pizza" loading="lazy">
+                <div class="card-body">
+                    <h4 class="card-title">Delicious Pizza</h4>
+                    <p class="card-text">Four toppings in one pizza: vegetables, salami, olives and cheese. Great for sharing.</p>
+                    <div class="card-container">
+                        <p>$10</p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Images/Menu 7.jpg" class="card-img-top" alt="Tasty Burger" loading="lazy">
+                <div class="card-body">
+                    <h4 class="card-title">Tasty Burger</h4>
+                    <p class="card-text">Crispy chicken with bacon, cheese, lettuce and tomato on a soft brioche bun.</p>
+                    <div class="card-container">
+                        <p>$10</p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Images/Menu 8.jpg" class="card-img-top" alt="Tasty Burger" loading="lazy">
+                <div class="card-body">
+                    <h4 class="card-title">Tasty Burger</h4>
+                    <p class="card-text">Grilled chicken breast with fresh lettuce and tomato on a whole-grain bun.</p>
+                    <div class="card-container">
+                        <p>$10</p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Images/Menu 9.jpg" class="card-img-top" alt="Delicious Pasta">
+                <div class="card-body">
+                    <h4 class="card-title">Delicious Pasta</h4>
+                    <p class="card-text">Oven-baked pasta in rich tomato sauce, topped with bubbling cheese and basil.</p>
+                    <div class="card-container">
+                        <p>$10</p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <section class="about" id="about">
+            <div class="img-about">
+                <img src="./Images/show 3.png" alt="Burger ingredients" loading="lazy">
+            </div>
+            <div class="contant">
+                <h4>We Are Feane</h4>
+                <p>There are many variations of Lorem Ipsum passages available,
+                    but
+                    most have been altered in some way, either by adding humor
+                    or
+                    random words that don't sound convincing at all. If you are
+                    going to use a Lorem Ipsum passage, you should make sure
+                    there
+                    isn't anything embarrassing hidden in the middle of the
+                    text.</p>
+                <a href="#"
+                    class="read-more">Read
+                    More</a>
+            </div>
+        </section>
+
+        <section class="booking" id="booking">
+            <div class="booking-form">
+                <h2>Book A Table</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="tel" placeholder="Your Number" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <select required>
+                        <option selected disabled> How Many Persons?
+                        </option>
+                        <option>1 person</option>
+                        <option>2 person</option>
+                        <option>3 person</option>
+                        <option>4 person</option>
+                        <option>5 person</option>
+                        <option>More Than 5</option>
+                    </select>
+                        <input type="date" aria-label="Booking date" required>
+                        <button type="submit">BOOK NOW</button>
+                    </form>
+                </div>
+
+                <div class="booking-map">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Times%20Square%20New%20York&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                        loading="lazy"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+
+            <section class="client">
+                <h2>What Says Our Customers</h2>
+                <div class="client-container">
+                    <div class="client-card">
+                        <p>
+                            The food was amazing! Everything was fresh and
+                            delicious. The burger was perfectly cooked, and
+                            the service was excellent. I will definitely come
+                            back again!
+                        </p>
+                        <h4>Moana Michell</h4>
+                        <span>magna aliqua</span>
+                        <img src="./Images/client 1.jpg" alt="Moana Michell" loading="lazy">
+                    </div>
+                    <div class="client-card">
+                        <p>
+                            I had a wonderful experience here. The food
+                            quality was great, the staff were friendly, and
+                            the atmosphere was very comfortable. Highly
+                            recommended!
+                        </p>
+                        <h4>Mike Hamell</h4>
+                        <span>magna aliqua</span>
+                        <img src="./Images/client 2.jpg" alt="Mike Hamell" loading="lazy">
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-container">
+                    <div class="contact">
+                        <h5>Contact Us</h5>
+                        <p><i class="fa-solid fa-location-dot"></i>Location</p>
+                        <p><i class="fa-solid fa-phone"></i>Call +201553645053</p>
+                        <p><i class="fa-solid fa-envelope"></i>Rogy@gmail.com</p>
+                    </div>
+                    <div class="feane">
+                        <h5>Feane</h5>
+                        <p>
+                            Necessary, making this the first true
+                            generator on the Internet. It uses a
+                            dictionary of over 200 Latin words,
+                            combined with
+                        </p>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <h5>Opening Hours</h5>
+                        <p>Everyday</p>
+                        <p>10.00 Am - 10.00 Pm</p>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2026 All Rights Reserved By Feane</p>
+                    <p>&copy; Distributed By Rogina Wagih</p>
+                </div>
+            </footer>
+
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
+        </body>
+    </html>
